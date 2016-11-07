@@ -5,5 +5,5 @@ RUN curl -o dotdeb.gpg http://www.dotdeb.org/dotdeb.gpg && \
     apt-key add dotdeb.gpg && \
     echo 'deb http://packages.dotdeb.org jessie all' >> /etc/apt/sources.list && \
     apt-get update && \
-    apt-get install -y php7.0-imagick php7.0-mcrypt && \
+    apt-get install -y php7.0-imagick php-mcrypt php7.0-mcrypt libmcrypt-dev libmcrypt4 mcrypt && \
     rm -r /var/lib/apt/lists/*
