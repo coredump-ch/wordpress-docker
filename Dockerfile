@@ -1,4 +1,4 @@
-FROM wordpress:4.6.1-php7.0-fpm
+FROM wordpress:4.6.1-php7.0
 MAINTAINER Danilo <mail@dbrgn.ch>
 
 RUN curl -o dotdeb.gpg http://www.dotdeb.org/dotdeb.gpg && \
