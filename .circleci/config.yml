@@ -18,7 +18,7 @@ jobs:
       - deploy:
           name: Push Docker image
           command: |
-            docker login -u $DOCKER_USER -p $DOCKER_API_KEY && \
+            docker login -u $DOCKER_USER -p $DOCKER_API_KEY quay.io && \
             docker push quay.io/coredump/wordpress
 
 workflows:
