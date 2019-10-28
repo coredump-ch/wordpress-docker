@@ -1,4 +1,4 @@
-FROM wordpress:5.2-php7.1
+FROM wordpress:5.2-php7.3
 MAINTAINER Danilo <mail@dbrgn.ch>
 
 # Install dependencies
